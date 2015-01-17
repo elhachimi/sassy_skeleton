@@ -1,14 +1,15 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require 'sassy_skeleton/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "sassy_skeleton"
-  spec.version       = "0.0.1"
+  spec.version       = SassySkeleton::VERSION
   spec.authors       = ["elhachimi"]
   spec.email         = ["wael@unik.ma"]
-  spec.summary       = %q{keleton is a simple, responsive boilerplate to kickstart any responsive project.}
-  spec.description   = ""
+  spec.summary       = %q{Skeleton is a simple, responsive boilerplate to kickstart any responsive project.}
+  spec.description   = %q{}
   spec.homepage      = ""
   spec.license       = "MIT"
 
