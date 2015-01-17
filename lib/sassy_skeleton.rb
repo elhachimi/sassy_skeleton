@@ -1,4 +1,4 @@
-module Somelibrary
-    class Engine < ::Rails::Engine
-    end
+module SassySkeleton
+  class Engine < ::Rails::Engine
+  end
 end
